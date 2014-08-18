@@ -1,0 +1,20 @@
+<?php  
+
+$this->LoadComponent('files/pasta', "comp");
+$this->comp->show('files/pasta', $item);
+    /*
+if(!empty($item)){
+    $size = 0;
+    if(!empty($item['arquivos'])){
+        foreach($item['arquivos'] as $f)$size += $f['size'];
+    }
+    echo "<h2>Espaço ocupado (".files_arquivoModel::convertSizeUnity($size)." )</h2>";
+    echo "<h2>Arquivos relacionados</h2>";
+    $this->LoadComponent('files/arquivo', "comp");
+    $this->comp->showAnexos('files/arquivo', $item['arquivos']);
+}else{
+    echo "<h1>Nenhum arquivo encontrado</h1>";
+    echo "<p>Nenhum arquivo associado a este Assunto</p>";
+}
+*/
+?>
