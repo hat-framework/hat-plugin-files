@@ -11,6 +11,18 @@ class files_pastaModel extends classes\Model\SecurityCatModel{
     protected $nome_pai          = "pasta_pai";
     protected $permission_model  = "files/acesso";
     protected $dados             = array(
+        'cod_pasta' => array(
+	    'name'     => 'cod_arquivo',
+	    'type'     => 'int',
+	    'size'     => '11',
+	    'pkey'    => true,
+	    'ai'      => true,
+	    'notnull' => true,
+            'private' => true,
+	    'grid'    => true,
+	    'display' => true,
+        ),
+    
         'url' => array(
             'name' 	=> 'url',
             'type' 	=> 'varchar',

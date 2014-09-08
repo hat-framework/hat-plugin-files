@@ -238,4 +238,3 @@ class files_arquivoModel extends \classes\Model\Model{
     }
     
 }
-?>

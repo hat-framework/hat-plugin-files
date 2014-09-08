@@ -2,14 +2,7 @@
         
 class filesConfigurations extends \classes\Classes\Options{
           
-    protected $menu = array(
-        array(
-            'menuid' => 'arquivos',
-            'menu'   => 'Arquivos',
-            'url'    => 'files/index/index',
-            'ordem'  => '9',
-        ),
-    );
+    protected $menu = array();
     
     protected $files   = array(
         'files/dropbox' => array(
